@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+    --color-primary: #FF6B9D;
+    --color-secondary: #C471ED;
+    --color-accent: #12CBC4;
+    --color-bg: #1A0A2E;
+    --color-surface: #2D1B4E;
+    --color-surface2: #3D2460;
+    --color-text: #E8D5F5;
+    --color-text-muted: #9B7EC8;
+    --gradient-vapor: linear-gradient(135deg, #FF6B9D, #C471ED, #12CBC4);
+    --gradient-dark: linear-gradient(180deg, #1A0A2E 0%, #0D0520 100%);
+    --glow-pink: 0 0 20px rgba(255,107,157,0.5);
+    --glow-cyan: 0 0 20px rgba(18,203,196,0.5);
+    --glow-purple: 0 0 20px rgba(196,113,237,0.5);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-surface);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-secondary);
+    border-radius: 3px;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--color-primary);
+    }
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+input, select {
+    font-family: inherit;
+    outline: none;
+}

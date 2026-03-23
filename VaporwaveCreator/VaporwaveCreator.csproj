@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>vaporwave-creator-ico.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3856.49" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Content Include="WebModel\dist\**\*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Modules\ffmpeg.exe" Condition="Exists('Modules\ffmpeg.exe')">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Resources\init.mp3" Condition="Exists('Resources\init.mp3')">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="vaporwave-creator-ico.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Modules\" />
+	  <Folder Include="WebModel\src\pages\Home\" />
+	  <Folder Include="WebModel\src\pages\AudioEditor\" />
+	  <Folder Include="WebModel\src\pages\Error404\" />
+	  <Folder Include="WebModel\src\pages\ArcadeGame\" />
+	</ItemGroup>
+
+</Project>
