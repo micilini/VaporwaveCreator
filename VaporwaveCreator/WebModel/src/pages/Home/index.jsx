@@ -280,7 +280,7 @@ function Home() {
               title: 'VAPORWAVE CREATOR',
               html: `
                 <div style="text-align:center; line-height:1.8;">
-                  <div><strong>Version:</strong> 1.0.0</div>
+                  <div><strong>Version:</strong> 1.0.1</div>
                   <div><strong>Year:</strong> 2026</div>
                   <div><strong>Creator:</strong> Portal Micilini</div>
                 </div>
