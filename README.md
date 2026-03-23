@@ -4,11 +4,26 @@
 
 # Vaporwave Creator For Windows (1.0.0)
 
+<p align="center">
+  <img src="https://img.shields.io/github/v/release/micilini/VaporwaveCreator?color=ff6b9d&style=flat-square" alt="Release" />
+  <img src="https://img.shields.io/github/license/micilini/VaporwaveCreator?color=c471ed&style=flat-square" alt="License" />
+  <img src="https://img.shields.io/github/stars/micilini/VaporwaveCreator?color=12cbc4&style=flat-square" alt="Stars" />
+  <img src="https://img.shields.io/github/downloads/micilini/VaporwaveCreator/total?color=ffd700&style=flat-square" alt="Downloads" />
+  <img src="https://img.shields.io/badge/.NET-8.0-512bd4?style=flat-square&logo=dotnet" alt=".NET 8" />
+  <img src="https://img.shields.io/badge/React-18-61dafb?style=flat-square&logo=react" alt="React 18" />
+  <img src="https://img.shields.io/badge/Platform-Windows-0078d4?style=flat-square&logo=windows" alt="Windows" />
+</p>
+
 A retro-aesthetic desktop app that combines an **audio editor** with a built-in **arcade racing game** — all wrapped in a neon-soaked vaporwave interface. Built with C#/WPF and React.
 
 <p align="center">
   <img src="images/home.png" alt="Home Screen" width="620" />
   <br/><em>Home — Vaporwave landing with animated sun, retro grid, and neon pillars</em>
+</p>
+
+<p align="center">
+  <img src="images/Game-VaporwaveCreator.gif" alt="Arcade Game Gameplay" width="620" />
+  <br/><em>Arcade Game — Gameplay demo</em>
 </p>
 
 <p align="center">
